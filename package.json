@@ -1,0 +1,33 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "WebSocket Based Chat System",
+  "main": "main.js",
+  "scripts": {
+    "test": "nodemon main.js",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiroyasha99/websocket_chat.git"
+  },
+  "keywords": [
+    "WebSocket",
+    "Chat",
+    "NodeJS"
+  ],
+  "author": "Ahmed Rafie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiroyasha99/websocket_chat/issues"
+  },
+  "homepage": "https://github.com/shiroyasha99/websocket_chat#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1",
+    "ws": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
